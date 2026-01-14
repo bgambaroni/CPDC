@@ -60,6 +60,8 @@ results/figures/
 
 ![Top 10 Órgãos por Ticket Médio](results/figures/top10orgaos.png)
 
+### Top 10 Portadores
+
 ![Top 10 Portadores](results/figures/top10portadores.png)
 
 
