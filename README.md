@@ -14,7 +14,6 @@ Explorar os dados do CPDC buscando responder perguntas como:
 ---
 
 ## 🗂 Estrutura do Projeto
-
 CPDC/
 ├── data/
 │   ├── raw/
