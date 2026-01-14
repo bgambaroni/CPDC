@@ -1,89 +1,80 @@
-# CPDC
-Análise do Cartão de Pagamento da Defesa Civil
-📊 Análise Exploratória de Dados — CPDC
+# 📊 CPDC — Análise Exploratória de Dados
 
-Este projeto tem como objetivo realizar uma Análise Exploratória de Dados (EDA) sobre os gastos registrados no Cartão de Pagamento da Defesa Civil (CPDC), utilizando dados públicos.
+Este projeto realiza uma **Análise Exploratória de Dados (EDA)** a partir de dados públicos do **Cartão de Pagamento da Defesa Civil (CPDC)**, com o objetivo de compreender padrões de gastos, estrutura dos dados e possíveis pontos de atenção.
 
-🛠️ Ferramentas Utilizadas
+---
 
-Python
+## 🎯 Objetivo
+Explorar os dados do CPDC buscando responder perguntas como:
+- Qual o volume e a estrutura dos dados disponíveis?
+- Existem valores ausentes ou inconsistências?
+- Como os gastos se distribuem por órgão, categoria ou período?
+- Que insights iniciais podem ser extraídos a partir da análise exploratória?
 
-Pandas
+---
 
-Matplotlib
+## 🗂 Estrutura do Projeto
 
-Jupyter Notebook
+CPDC/
+│
+├── data/
+│ ├── raw/ # Dados brutos
+│ └── processed/ # Dados tratados
+│
+├── notebooks/ # Notebooks Jupyter
+│ └── CPDC.ipynb
+│
+├── results/
+│ └── figures/ # Gráficos gerados
+│
+├── requirements.txt
+└── README.md
 
-🧹 Tratamento e Preparação dos Dados
+---
 
-Antes das análises, foram realizadas as seguintes etapas de pré-processamento:
+## 🛠 Ferramentas Utilizadas
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
-Criação de um dataset limpo (df_clean) a partir dos dados brutos
+---
 
-Tratamento de valores ausentes em campos descritivos
+## 🔎 Metodologia
+1. Carregamento dos dados
+2. Inspeção inicial (`head`, `info`, `shape`)
+3. Verificação de valores ausentes
+4. Análise exploratória univariada e bivariada
+5. Geração de visualizações para apoio aos insights
 
-Conversão de tipos de dados:
+---
 
-Datas para datetime
+## 📈 Resultados
+Os resultados da análise exploratória permitem uma melhor compreensão da estrutura dos dados e servem como base para análises mais avançadas ou auditorias futuras.
 
-Valores monetários para float
+Gráficos e outputs gerados podem ser encontrados em:
 
-Ano e mês para valores numéricos
+results/figures/
 
-Essas etapas garantiram maior confiabilidade para as análises posteriores.
 
-📈 Análise Univariada
+---
 
-Foram realizadas análises individuais das variáveis, incluindo:
+## ▶️ Como Executar o Projeto
 
-Frequência de transações por órgão
+1. Clone o repositório:
+```bash
+git clone https://github.com/bgambaroni/CPDC.git
 
-Frequência de transações por portador
+2. Instale as dependências:
 
-Total gasto por favorecido
+pip install -r requirements.txt
 
-Os resultados indicam concentração das transações em poucos órgãos e favorecidos.
+3. Execute o notebook:
 
-📊 Análise Bivariada
+jupyter notebook notebooks/CPDC.ipynb
 
-Na análise bivariada, foram exploradas relações entre variáveis categóricas e numéricas, como:
+📌 Observações
 
-Órgão × Valor total gasto
-
-Portador × Valor total gasto
-
-Mês × Valor total gasto
-
-Órgão × Ticket médio
-
-Observou-se que órgãos com menor número de transações podem apresentar ticket médio significativamente maior, demonstrando que frequência de uso não implica, necessariamente, maior volume financeiro.
-
-🔍 Principais Insights
-
-O MID concentra o maior número de transações no período analisado
-
-Os gastos estão majoritariamente associados a:
-
-Bebidas
-
-Mercados
-
-Alimentos
-
-Construtoras
-
-A ausência de informações completas sobre o nome de alguns órgãos limita análises mais detalhadas
-
-Existe diferença relevante entre frequência de uso e valor médio das transações
-
-🚀 Próximos Passos (Sugestões)
-
-Análise temporal com séries mais longas
-
-Detecção de outliers em valores de transação
-
-Análise multivariada para identificar padrões mais complexos
-
-📌 Observação
-
-Este projeto tem caráter exploratório e educacional, com foco em práticas de análise de dados e visualização, não constituindo auditoria ou juízo de valor sobre os gastos analisados.
+Este projeto tem caráter educacional e analítico, utilizando dados públicos para fins de estudo e demonstração de técnicas de análise de dados.
