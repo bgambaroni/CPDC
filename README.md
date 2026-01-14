@@ -51,30 +51,29 @@ CPDC/
 
 ---
 
-## 📈 Resultados
+📈 Resultados
+
 Os resultados da análise exploratória permitem uma melhor compreensão da estrutura dos dados e servem como base para análises mais avançadas ou auditorias futuras.
 
-Gráficos e outputs gerados podem ser encontrados em:
+Os gráficos e outputs gerados podem ser encontrados em:
 
 results/figures/
 
+▶️ Como Executar o Projeto
 
----
+1. Clone o repositório
 
-## ▶️ Como Executar o Projeto
-
-1. Clone o repositório:
-```bash
 git clone https://github.com/bgambaroni/CPDC.git
 
-2. Instale as dependências:
+2. Instale as dependências
 
 pip install -r requirements.txt
 
-3. Execute o notebook:
+3. Execute o notebook
 
 jupyter notebook notebooks/CPDC.ipynb
 
-📌 Observações
+
+
 
 Este projeto tem caráter educacional e analítico, utilizando dados públicos para fins de estudo e demonstração de técnicas de análise de dados.
