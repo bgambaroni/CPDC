@@ -56,6 +56,11 @@ Os gráficos e outputs gerados podem ser encontrados em:
 
 results/figures/
 
+### Top 10 Órgãos por Ticket Médio
+
+![Top 10 Órgãos por Ticket Médio](results/figures/top10orgaos.png)
+
+
 ▶️ Como Executar o Projeto
 
 1. Clone o repositório
