@@ -16,17 +16,13 @@ Explorar os dados do CPDC buscando responder perguntas como:
 ## 🗂 Estrutura do Projeto
 
 CPDC/
-│
 ├── data/
-│ ├── raw/ # Dados brutos
-│ └── processed/ # Dados tratados
-│
-├── notebooks/ # Notebooks Jupyter
-│ └── CPDC.ipynb
-│
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+│   └── CPDC.ipynb
 ├── results/
-│ └── figures/ # Gráficos gerados
-│
+│   └── figures/
 ├── requirements.txt
 └── README.md
 
