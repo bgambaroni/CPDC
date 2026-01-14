@@ -79,7 +79,11 @@ pip install -r requirements.txt
 
 jupyter notebook notebooks/CPDC.ipynb
 
+## ✅ Conclusões
 
+A análise exploratória permitiu identificar padrões iniciais de gastos por órgão, bem como compreender a estrutura e qualidade dos dados disponíveis.  
+Os resultados obtidos servem como base para análises mais aprofundadas, auditorias ou estudos futuros sobre a utilização do Cartão de Pagamento da Defesa Civil.
 
+.
 
 Este projeto tem caráter educacional e analítico, utilizando dados públicos para fins de estudo e demonstração de técnicas de análise de dados.
